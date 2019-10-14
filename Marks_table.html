@@ -2,10 +2,29 @@
 <html>
 <head>
 	<title>Marks List</title>
+	<style type="text/css">
+		#dummy{
+			border:2px solid red;
+		}
+		table{
+			margin-top: 10px;
+			border:1px solid gray;
+		}
+		tr, td, th {
+			border: 1px solid gray;
+			padding: 0px;
+		}
+		tr:nth-child(odd){
+			background-color: #ccc;
+		}
+	</style>
 </head>
 <body>
 	<h3 style= "color:brown; text-align:left">A table showing 10th class marks of a student
 	</h3>
+	<span id="dummy">
+		My Marks Memo
+	</span>
 	<table>
 		<tr>
 			<th style="color:red"> Subjects </th>
