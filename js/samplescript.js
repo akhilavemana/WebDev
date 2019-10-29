@@ -1,2 +1,2 @@
-var x = "Hello World!"
+var x = "Test JS"
 console.log(x)
