@@ -1,2 +1,2 @@
-var x = "Test JS"
+var x = "Test JS";
 console.log(x)
